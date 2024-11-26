@@ -13,9 +13,9 @@ Fullscreen Mode: Immerse yourself fully in the action.
 Optimized for Performance: Smooth gameplay with efficient resource management.
 
 Controls
-Movement: Use arrow keys or WASD to move your character.
+Movement: Use WASD to move your character.
 
-Shooting: Use spacebar or mouse to shoot.
+Shooting: Use mouse to shoot.
 
 Powerups: Automatically applied when collected.
 
