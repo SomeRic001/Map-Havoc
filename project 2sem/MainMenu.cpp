@@ -46,7 +46,7 @@ MainMenu::MainMenu(float width, float height) {
  
         toggle.setFont(font);
         toggle.setFillColor(sf::Color::Yellow);
-        toggle.setString("Press F to toggle full screen");
+        toggle.setString("Press 'F' to toggle full screen");
         toggle.setCharacterSize(30);
         toggle.setFillColor(sf::Color::Green);
     // Set initial positions
