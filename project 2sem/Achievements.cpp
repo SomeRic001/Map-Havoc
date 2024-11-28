@@ -30,12 +30,12 @@ void Achievements::drawAchievements(sf::RenderWindow& window) {
     std::unordered_map<std::string, std::string> achievementDescriptions = {
         {"Havoc Master", "You know the true meaning of Havoc. Kill 200 enemies."},
         {"Wave Master", "You are in a realm of your own. Reach Wave 8"},
-        {"Half a millenia", "Cross 500 score"}
+        {"Half a millenia", "You are a sweat. Cross 500 score"}
     };
 
     float yPosition = windowHeight / 2.0f; // Start from the middle of the screen
     for (const auto& achievement : achievements) {
-        std::string fullText = "• " + achievement.first + ": " + achievementDescriptions[achievement.first]; // Combine name and description
+        std::string fullText = "â€¢ " + achievement.first + ": " + achievementDescriptions[achievement.first]; // Combine name and description
         sf::Text text(fullText, font, 30); // Add bullet point
         text.setFillColor(achievement.second ? sf::Color::Green : sf::Color::Red);
         text.setPosition(windowWidth / 2.0f - text.getGlobalBounds().width / 2.0f, yPosition); // Center horizontally
