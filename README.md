@@ -22,9 +22,6 @@ Powerups: Automatically applied when collected.
 How to Build
 To build MAP HAVOC, follow these steps:
 
-Clone the repository:
-git clone https://github.com/YourUsername/MapHavoc.git
-cd MapHavoc
 
 
 Install SFML: Ensure you have SFML installed and set up properly on your system.
